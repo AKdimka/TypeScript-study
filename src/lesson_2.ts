@@ -1,6 +1,6 @@
 // Задайте правильные ts типы, для классических js;
-let age: number = 50;
-let name: string = 'Max';
+let age:number = 50;
+let user:string = 'Max';
 let toggle:boolean = true;
 let empty:null = null;
 let notInitialize:undefined = undefined;
@@ -65,8 +65,8 @@ type Page ={
 		createAt: string,
 		updateAt:string
 	}
-
 }
+
 const page1:Page = {
   title: 'The awesome page',
   likes: 100,
